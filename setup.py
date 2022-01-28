@@ -15,5 +15,5 @@ s = setup(
     install_requires = [],
     python_requires = ">= 3.4",
     author = "Neo",
-    author_email = "paul.gardien@epitech.eu",
+    author_email = "neotoxic.off@gmail.com",
 )
