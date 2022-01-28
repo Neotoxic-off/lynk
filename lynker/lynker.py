@@ -1,6 +1,6 @@
 import re
 
-class Lynk:
+class Lynker:
     def __init__(self):
         self.regex = re.compile('((https?):((//)|(\\\\))+([\w\d:#@%/;$()~_?\+-=\\\.&](#!)?)*)', re.DOTALL)
         self.links = []

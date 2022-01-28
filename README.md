@@ -1,32 +1,32 @@
-# lynk
+# lynker
 🔗 Python Links Extractor
 
 ## Install
 ```
-pip install --upgrade lynk
+pip install --upgrade lynker
 ```
 
 ## Import
 ```python
-from lynk.lynk import Lynk
+from lynker.lynker import Lynker
 ```
 
 ### Example
 ```python
 import requests
 
-from lynk.lynk import Lynk
+from lynker.lynker import Lynker
 
 class Main:
     def __init__(self):
-        self.lynk = Lynk()
+        self.lynker = Lynker()
 
         self.main()
 
     def main(self):
         r = requests.get("https://github.com/Neotoxic-off/lynk")
 
-        print(self.lynk.feed(r.text))
+        print(self.lynker.feed(r.text))
 
 if (__name__ == "__main__"):
     Main()
